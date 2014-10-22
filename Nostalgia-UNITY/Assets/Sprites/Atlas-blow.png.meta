@@ -4,6 +4,11 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Blow-cartridge
     21300002: Blow-wind
+    21300004: Blow-dirt04
+    21300006: Blow-dirt03
+    21300008: Blow-dirt02
+    21300010: Blow-dirt01
+    21300012: Blow-dirt00
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,6 +67,56 @@ TextureImporter:
         y: 838
         width: 98
         height: 186
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-dirt04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 344
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-dirt03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 344
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-dirt02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 674
+        width: 344
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-dirt01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 344
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-dirt00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 574
+        width: 344
+        height: 42
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
