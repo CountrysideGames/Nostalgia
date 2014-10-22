@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 0ce9ff7b8e04248d1bf5dc5d7f868188
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Interface-bar
+    21300002: Interface-button
+    21300004: Interface-pause
+    21300006: Interface-chance
+    21300008: Interface-play
+    21300010: Interface-home
+    21300012: Interface-options
+    21300014: Interface-info
+    21300016: Interface-leaderboards
+    21300018: Interface-sfx
+    21300020: Interface-sfx_on
+    21300022: Interface-restart
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Interface-bar
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 974
+        width: 512
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-button
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 924
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-pause
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 908
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-chance
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 712
+        width: 211
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-play
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 761
+        width: 128
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-home
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 621
+        width: 154
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-options
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 487
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-info
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 11
+        width: 40
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-leaderboards
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 9
+        width: 140
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-sfx
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 79
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-sfx_on
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 9
+        width: 68
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interface-restart
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 724
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
