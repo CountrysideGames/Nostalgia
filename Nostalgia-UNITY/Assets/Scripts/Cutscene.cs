@@ -12,6 +12,5 @@ public class Cutscene : MonoBehaviour {
 			successScene.SetActive(true);
 		else
 			failScene.SetActive(true);
-
 	}
 }
