@@ -105,16 +105,16 @@ public class TapeController : MonoBehaviour {
 		rollScale[1] = roll[1].localScale;
 
 		//se o segundo rolo estiver MENOR que o limite
-		if (roll[1].localScale.x < 1.08f && canPress)
+		if (roll[0].localScale.x < 1 && canPress)
 		{
 			if (playSound)
 				wheel.audio.Play ();
 			playSound = false;
 
 			//reduz a escala do rolo 0
-			roll[0].transform.localScale = new Vector2 (rollScale[0].x - 0.009f, rollScale[0].y - 0.009f);
+			roll[1].transform.localScale = new Vector2 (rollScale[0].x - 0.009f, rollScale[0].y - 0.009f);
 			//aumenta a escala do rolo 1
-			roll[1].transform.localScale = new Vector2 (rollScale[1].x + 0.005f, rollScale[1].y + 0.005f);
+			roll[0].transform.localScale = new Vector2 (rollScale[1].x + 0.005f, rollScale[1].y + 0.005f);
 
 			//ativa a animação da caneta girando
 			pencilAnimator.SetBool ("Rewind", true);

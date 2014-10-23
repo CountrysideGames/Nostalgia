@@ -2,15 +2,14 @@ fileFormatVersion: 2
 guid: b9871d4d9b7564803af08ef5586a5f6c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Tape-case
-    21300002: Tape-pencil_1
-    21300004: Tape-pencil_0
-    21300006: Tape-wheel_0
+    21300000: Tape-base
+    21300002: Tape-pencil_0
+    21300004: Tape-pencil_1
+    21300006: Tape-ponta
     21300008: Tape-roll
-    21300010: Tape-wheel_1
-    21300012: Tape-pencil_2
-    21300014: Tape-pencil_3
-    21300016: Tape-pencil_4
+    21300010: Tape-bg
+    21300012: Tape-wheel_0
+    21300014: Tape-wheel_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,95 +51,85 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Tape-case
+    - name: Tape-base
       rect:
         serializedVersion: 2
-        x: 24
+        x: 0
         y: 0
-        width: 725
-        height: 501
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Tape-wheel_0
-      rect:
-        serializedVersion: 2
-        x: 881
-        y: 53
-        width: 143
-        height: 80
+        width: 489
+        height: 782
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Tape-pencil_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 569
-        width: 191
-        height: 455
-      alignment: 8
-      pivot: {x: 1, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Tape-roll
-      rect:
-        serializedVersion: 2
-        x: 782
-        y: 339
-        width: 231
-        height: 160
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Tape-wheel_1
-      rect:
-        serializedVersion: 2
-        x: 881
-        y: 144
-        width: 143
-        height: 80
+        x: 0
+        y: 790
+        width: 491
+        height: 116
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Tape-pencil_1
       rect:
         serializedVersion: 2
-        x: 201
-        y: 569
-        width: 191
-        height: 455
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 0
+        y: 908
+        width: 491
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Tape-pencil_2
+    - name: Tape-ponta
       rect:
         serializedVersion: 2
-        x: 414
-        y: 569
-        width: 191
-        height: 455
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 618
+        y: 940
+        width: 126
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Tape-pencil_3
+    - name: Tape-roll
       rect:
         serializedVersion: 2
-        x: 628
-        y: 569
-        width: 191
-        height: 455
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 748
+        y: 748
+        width: 276
+        height: 276
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Tape-pencil_4
+    - name: Tape-bg
       rect:
         serializedVersion: 2
-        x: 827
-        y: 569
-        width: 191
-        height: 455
-      alignment: 8
-      pivot: {x: 1, y: 0}
+        x: 519
+        y: 0
+        width: 505
+        height: 743
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tape-wheel_0
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 790
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tape-wheel_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 908
+        width: 117
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
