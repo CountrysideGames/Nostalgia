@@ -47,7 +47,7 @@ public class TapeController : MonoBehaviour {
 				Vector2 touchDeltaPosition = Input.GetTouch (0).deltaPosition;
 
 				//se arrastar o dedo para a esquerda na metade de baixo da tela, a fita gira e o lápis gira
-				if (touchPosition.y > Screen.height/4 && touchPosition.y < (Screen.height/4) * 3 && touchDeltaPosition.y > 0)
+				if (touchPosition.y > Screen.height/4 && touchPosition.y < (Screen.height/4) * 3 && touchDeltaPosition.y < 0)
 					Rewind ();
 			}
 #if !UNITY_EDITOR
@@ -70,7 +70,7 @@ public class TapeController : MonoBehaviour {
 			{
 				timer += 1 *Time.deltaTime;
 
-				if (timer > 0.3f)
+				if (timer > 0.5f)
 					EndTimer ();
 			}
 
@@ -111,10 +111,10 @@ public class TapeController : MonoBehaviour {
 				wheel.audio.Play ();
 			playSound = false;
 
-			//reduz a escala do rolo 0
-			roll[1].transform.localScale = new Vector2 (rollScale[0].x - 0.009f, rollScale[0].y - 0.009f);
 			//aumenta a escala do rolo 1
-			roll[0].transform.localScale = new Vector2 (rollScale[1].x + 0.005f, rollScale[1].y + 0.005f);
+			roll[0].transform.localScale = new Vector2 (rollScale[0].x + 0.005f, rollScale[0].y + 0.005f);
+			//reduz a escala do rolo 0
+			roll[1].transform.localScale = new Vector2 (rollScale[1].x - 0.005f, rollScale[1].y - 0.005f);
 
 			//ativa a animação da caneta girando
 			pencilAnimator.SetBool ("Rewind", true);
@@ -125,7 +125,7 @@ public class TapeController : MonoBehaviour {
 			pencilAnimator.speed = 1;
 			wheelAnimator.speed = 1;
 		}
-		else if (roll[1].localScale.x >= 1.08f)
+		else if (roll[0].localScale.x >= 1)
 		{
 			Game.EndLevel (true);
 		}
@@ -147,7 +147,6 @@ public class TapeController : MonoBehaviour {
 
 		canPress = true;
 	}
-
 
 
 }

@@ -26,7 +26,7 @@ public class BlowController : MonoBehaviour {
 	{
 		if (state == 0)
 		{
-			if (micControl.loudness > 40)
+			if (micControl.loudness > 30)
 			{
 				windRenderer.enabled = true;
 				progress += 1;
