@@ -5,6 +5,10 @@ using System.Collections;
 public class AudioManager : MonoBehaviour {
 
 
+	//ESTA CLASSE GERENCIA OS CLIPES DE ÁUDIO
+	//DEVE SER COLOCADA NO GAMEOBJECT AUDIOMANAGER
+
+
 	public AudioClip[] audioClip = new AudioClip[15];
 
 

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class BlowController : MonoBehaviour {
 
+	public GameObject wind;
+
 	public SpriteRenderer dirtRenderer; //sprite da sujeira do cartucho
 	public Sprite[] dirtSprites = new Sprite[6]; //sprites
 
@@ -15,8 +17,8 @@ public class BlowController : MonoBehaviour {
 
 	void Awake ()
 	{
-		micControl = GetComponent<MicControlC>();
-		windRenderer = GetComponent<SpriteRenderer>();
+		micControl = wind.GetComponent<MicControlC>();
+		windRenderer = wind.GetComponent<SpriteRenderer>();
 	}
 
 

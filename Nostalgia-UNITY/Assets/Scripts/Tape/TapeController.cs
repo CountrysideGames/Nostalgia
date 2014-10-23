@@ -4,6 +4,7 @@ using System.Collections;
 public class TapeController : MonoBehaviour {
 
 	public GameObject pencil; //lápis
+	public GameObject wheel; //roda
 
 	public Transform[] roll = new Transform[2]; //rolos de fita
 	private Vector2[] rollScale = new Vector2[2]; //escala dos rolos
@@ -22,7 +23,7 @@ public class TapeController : MonoBehaviour {
 	void Start ()
 	{
 		pencilAnimator = pencil.GetComponent<Animator>();
-		wheelAnimator = GetComponent<Animator>();
+		wheelAnimator = wheel.GetComponent<Animator>();
 
 		state = 0; //define o estado como STOP (a fita não está em Rewind)
 
@@ -84,7 +85,7 @@ public class TapeController : MonoBehaviour {
 			press = false; //INDICA QUE O JOGADOR NÃO ESTÁ MAIS PRESSIONANDO
 		
 		//pausa o som
-		audio.Pause ();
+		wheel.audio.Pause ();
 		playSound = true;
 		canPress = false;
 		timer = 0;
@@ -108,7 +109,7 @@ public class TapeController : MonoBehaviour {
 		if (roll[1].localScale.x < 1.08f && canPress)
 		{
 			if (playSound)
-				audio.Play ();
+				wheel.audio.Play ();
 			playSound = false;
 
 			//reduz a escala do rolo 0
