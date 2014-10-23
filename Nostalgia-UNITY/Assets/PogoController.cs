@@ -21,7 +21,7 @@ public class PogoController : MonoBehaviour {
 		else
 			sideForce = -.6f;
 
-		rotation.eulerAngles = new Vector3(0, 0, rotation.eulerAngles.z + (Input.acceleration.z + sideForce) * Game.time);
+		rotation.eulerAngles = new Vector3(0, 0, rotation.eulerAngles.z + (Input.acceleration.z/5 + sideForce) * Game.time);
 		transform.rotation = rotation;
 	}
 
