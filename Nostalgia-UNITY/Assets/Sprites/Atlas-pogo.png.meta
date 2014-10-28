@@ -4,6 +4,7 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Pogo-body
     21300002: Pogo-head
+    21300004: Atlas-upperBody
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,10 +49,10 @@ TextureImporter:
     - name: Pogo-body
       rect:
         serializedVersion: 2
-        x: 252
+        x: 246
         y: 0
-        width: 531
-        height: 595
+        width: 538
+        height: 588
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -59,11 +60,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 327
-        y: 624
-        width: 313
-        height: 285
-      alignment: 9
-      pivot: {x: .602442324, y: .00350256125}
+        y: 629
+        width: 314
+        height: 280
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

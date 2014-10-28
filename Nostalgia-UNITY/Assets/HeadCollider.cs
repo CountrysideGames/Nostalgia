@@ -5,7 +5,13 @@ public class HeadCollider : MonoBehaviour {
 
 
 	bool isPlaying = false;
+	private Rigidbody2D body;
 
+
+	void Start ()
+	{
+		body = transform.parent.rigidbody2D;
+	}
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
@@ -15,9 +21,13 @@ public class HeadCollider : MonoBehaviour {
 		{
 			audio.Play ();
 			isPlaying = true;
+			Invoke ("GameOver", 1.0f);
 		}
+	}
 
-		//Game.EndLevel (false);
+	void GameOver ()
+	{
+		Game.EndLevel (false);
 	}
 
 }

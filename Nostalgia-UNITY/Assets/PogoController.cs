@@ -7,23 +7,23 @@ public class PogoController : MonoBehaviour {
 	private Quaternion rotation = Quaternion.identity;
 	private float sideForce = 0;
 
+
+
 	void Start ()
 	{
-		sideForce = Random.Range (-1.0f, 1.0f);
-		rotation.eulerAngles = new Vector3(0, 0, rotation.eulerAngles.z + (Input.acceleration.z + sideForce));
-		transform.rotation = rotation;
+		Timer.success = true;
+
+		sideForce = Random.Range (-10, 10);
 	}
 
 	void Update()
 	{
-		if (Input.acceleration.z > 0)
-			sideForce = .6f;
-		else
-			sideForce = -.6f;
+		if (Input.GetKey (KeyCode.A) || Input.acceleration.x < 0)
+			sideForce += 1;
+		else if (Input.GetKey (KeyCode.D) || Input.acceleration.x > 0)
+			sideForce -= 1;
 
-		rotation.eulerAngles = new Vector3(0, 0, rotation.eulerAngles.z + (Input.acceleration.z/5 + sideForce) * Game.time);
-		transform.rotation = rotation;
+		transform.Rotate (0, 0, transform.rotation.z + sideForce/50);
 	}
-
 
 }

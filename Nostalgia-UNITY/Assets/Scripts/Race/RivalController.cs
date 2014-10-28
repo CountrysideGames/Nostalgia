@@ -18,7 +18,7 @@ public class RivalController : MonoBehaviour {
 	//faz o carro descer
 	void MoveDown ()
 	{
-		transform.localPosition = new Vector2 (transform.localPosition.x, transform.localPosition.y - 0.33f * Game.time);
+		transform.localPosition = new Vector2 (transform.localPosition.x, transform.localPosition.y - 0.33f * Game.time * 1.0f);
 		
 		if (Game.time == 0)
 			CancelInvoke ();

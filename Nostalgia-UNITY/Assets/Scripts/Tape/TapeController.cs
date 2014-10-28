@@ -47,7 +47,7 @@ public class TapeController : MonoBehaviour {
 				Vector2 touchDeltaPosition = Input.GetTouch (0).deltaPosition;
 
 				//se arrastar o dedo para a esquerda na metade de baixo da tela, a fita gira e o lápis gira
-				if (touchPosition.y > Screen.height/4 && touchPosition.y < (Screen.height/4) * 3 && touchDeltaPosition.y < 0)
+				if (touchPosition.y < Screen.height/4 && touchPosition.y < (Screen.height/4) * 3 && touchDeltaPosition.y < 0)
 					Rewind ();
 			}
 #if !UNITY_EDITOR

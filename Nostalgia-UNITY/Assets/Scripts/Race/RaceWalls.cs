@@ -11,7 +11,7 @@ public class RaceWalls : MonoBehaviour {
 	
 	void MoveDown ()
 	{
-		transform.localPosition = new Vector2 (transform.localPosition.x, transform.localPosition.y - 0.33f * Game.time);
+		transform.localPosition = new Vector2 (transform.localPosition.x, transform.localPosition.y - 0.33f * Game.time * 2.0f);
 
 		if (Game.time == 0)
 			CancelInvoke ();
