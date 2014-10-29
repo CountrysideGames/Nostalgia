@@ -67,7 +67,7 @@ public class BlowController : MonoBehaviour {
 
 	public void EndAnimation ()
 	{
-		if (progress > 125)
+		if (progress > 100)
 		{
 			//ANIMACAO DE SUCESSO
 			Game.EndLevel (true);
