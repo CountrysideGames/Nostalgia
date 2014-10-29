@@ -2,7 +2,7 @@ fileFormatVersion: 2
 guid: 6f3d03ae6fadd45879d8d613cb88b5cc
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Blow-cartridge
+    21300000: Blow-cartridge_1
     21300002: Blow-wind
     21300004: Blow-dirt04
     21300006: Blow-dirt03
@@ -10,7 +10,12 @@ TextureImporter:
     21300010: Blow-dirt01
     21300012: Blow-dirt00
     21300014: blow-bg
-    21300016: blow-console
+    21300016: Blow-console_1
+    21300018: Blow-console_0
+    21300020: Blow-cartridge_0
+    21300022: Blow-flame
+    21300024: Blow-fail
+    21300026: Blow-success
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,33 +57,73 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Blow-cartridge
+    - name: Blow-cartridge_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 849
-        width: 345
-        height: 175
+        y: 263
+        width: 414
+        height: 212
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: blow-bg
+    - name: Blow-console_1
       rect:
         serializedVersion: 2
-        x: 520
-        y: 285
-        width: 504
-        height: 739
+        x: 426
+        y: 348
+        width: 598
+        height: 276
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: blow-console
+    - name: Blow-console_0
       rect:
         serializedVersion: 2
-        x: 440
-        y: 0
-        width: 584
-        height: 162
+        x: 426
+        y: 44
+        width: 598
+        height: 276
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-cartridge_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 414
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-flame
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 613
+        width: 276
+        height: 411
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-fail
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 657
+        width: 359
+        height: 367
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blow-success
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 657
+        width: 359
+        height: 367
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
