@@ -8,6 +8,8 @@ public class Timer : MonoBehaviour {
 
 	public float speed = 0.2f; //tempo que leva para reduzir a escala da barra de tempo
 	public static bool success = false;
+	public bool finishOnEnd = true; //finaliza a fase ao terminar o contador de tempo
+
 
 	void Awake ()
 	{
@@ -20,7 +22,8 @@ public class Timer : MonoBehaviour {
 			transform.localScale = new Vector2 (transform.localScale.x - (speed * Time.deltaTime) * Game.time, transform.localScale.y);
 		else
 		{
-			Game.EndLevel (success); //termina a fase sem sucesso
+			if (finishOnEnd)
+				Game.EndLevel (success); //termina a fase sem sucesso
 		}
 	}
 
