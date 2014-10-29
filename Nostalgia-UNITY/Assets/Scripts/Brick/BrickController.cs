@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CarController : MonoBehaviour {
+public class BrickController : MonoBehaviour {
 
 	//CONTROLE DO CARRO DA FASE RACE
 
@@ -34,7 +34,7 @@ public class CarController : MonoBehaviour {
 			MoveRight ();
 
 		if (Game.time != 0)
-			audioManager.Play ("Race-move");
+			audioManager.Play ("Brick-move");
 
 		//diminui o botão
 		buttonSprite.sprite = buttonDown;
@@ -71,7 +71,7 @@ public class CarController : MonoBehaviour {
 			buttonSprite.sprite = buttonDown;
 			
 			if (Game.time != 0)
-				audioManager.Play ("Race-move");
+				audioManager.Play ("Brick-move");
 		}
 		else if (Input.GetKeyDown (KeyCode.D) && buttonNumber == -1 && car.transform.localPosition.x < 0.4f)
 		{
@@ -81,7 +81,7 @@ public class CarController : MonoBehaviour {
 			buttonSprite.sprite = buttonDown;
 			
 			if (Game.time != 0)
-				audioManager.Play ("Race-move");
+				audioManager.Play ("Brick-move");
 		}
 
 		if (Input.GetKeyUp (KeyCode.A) || Input.GetKeyUp (KeyCode.D))

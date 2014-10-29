@@ -13,7 +13,7 @@ public class Game : MonoBehaviour {
 	public static bool isPaused = false; //indica se o jogo está pausado
 	public static bool levelComplete = false; //indica se a missao foi completa (sucesso)
 
-	private static List<string> levels = new List<string>() {"Race", "Tape", "Blow", "Pogo"}; //lista de fases
+	private static List<string> levels = new List<string>() {"Blow", "Brick", "Pogo", "Race", "Tape"}; //lista de fases
 	public static List<string> playedLevels = new List<string> (); //lista de fases jogadas na sessão
 
 

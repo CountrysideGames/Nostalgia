@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CarCollision : MonoBehaviour {
+public class BrickCollision : MonoBehaviour {
 
 	//COLISOES DO CARRO PARA A FASE DA CORRIDA
 
@@ -26,7 +26,7 @@ public class CarCollision : MonoBehaviour {
 		{
 			print ("Hit!");
 			//toca som de colisão
-			audioManager.Play("Race-hit");
+			audioManager.Play("Brick-hit");
 
 			//mostra a tela quebrada
 			screenCrash.renderer.enabled = true;
@@ -41,7 +41,7 @@ public class CarCollision : MonoBehaviour {
 				screenCrash.localScale = new Vector2 (-1, screenCrash.localScale.y);
 
 			//anima o carro "explodindo"
-			transform.FindChild ("CarBody").animation.Play("Car-explosion");
+			transform.FindChild ("CarBody").animation.Play("Brick-explosion");
 
 			//pausa o movimento geral
 			Game.time = 0;
