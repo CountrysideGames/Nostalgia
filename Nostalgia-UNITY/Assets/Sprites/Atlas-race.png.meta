@@ -10,6 +10,7 @@ TextureImporter:
     21300010: Atlas-screenCrash
     21300012: Race-carBlock
     21300014: Race-buttonUp
+    21300016: Brick-marks
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,20 +55,20 @@ TextureImporter:
     - name: Race-frame
       rect:
         serializedVersion: 2
-        x: 454
-        y: 170
-        width: 570
-        height: 854
+        x: 455
+        y: 168
+        width: 569
+        height: 856
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Race-screen
       rect:
         serializedVersion: 2
-        x: 148
-        y: 596
-        width: 296
-        height: 428
+        x: 128
+        y: 572
+        width: 313
+        height: 452
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -84,10 +85,10 @@ TextureImporter:
     - name: Race-buttonUp
       rect:
         serializedVersion: 2
-        x: 536
-        y: 5
-        width: 97
-        height: 97
+        x: 498
+        y: 14
+        width: 150
+        height: 150
       alignment: 3
       pivot: {x: 1, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -104,10 +105,10 @@ TextureImporter:
     - name: Atlas-screenCrash
       rect:
         serializedVersion: 2
-        x: 145
-        y: 153
-        width: 296
-        height: 428
+        x: 131
+        y: 113
+        width: 304
+        height: 447
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,12 +125,22 @@ TextureImporter:
     - name: Race-buttonDown
       rect:
         serializedVersion: 2
-        x: 861
-        y: 5
-        width: 97
-        height: 97
+        x: 821
+        y: 14
+        width: 150
+        height: 150
       alignment: 3
       pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Brick-marks
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 353
+        width: 73
+        height: 594
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
