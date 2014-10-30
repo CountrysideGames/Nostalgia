@@ -112,9 +112,9 @@ public class TapeController : MonoBehaviour {
 			playSound = false;
 
 			//aumenta a escala do rolo 1
-			roll[0].transform.localScale = new Vector2 (rollScale[0].x + 0.005f, rollScale[0].y + 0.005f);
+			roll[0].transform.localScale = new Vector2 (rollScale[0].x + 0.008f, rollScale[0].y + 0.008f);
 			//reduz a escala do rolo 0
-			roll[1].transform.localScale = new Vector2 (rollScale[1].x - 0.005f, rollScale[1].y - 0.005f);
+			roll[1].transform.localScale = new Vector2 (rollScale[1].x - 0.008f, rollScale[1].y - 0.008f);
 
 			//ativa a animação da caneta girando
 			pencilAnimator.SetBool ("Rewind", true);

@@ -35,5 +35,4 @@ public class ButtonPause : MonoBehaviour {
 		}
 	}
 
-
 }
