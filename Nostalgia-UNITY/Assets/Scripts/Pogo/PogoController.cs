@@ -2,18 +2,14 @@
 using System.Collections;
 
 public class PogoController : MonoBehaviour {
-
-
-	private Quaternion rotation = Quaternion.identity;
+	
 	private float sideForce = 0;
-	private float[] forceLimit = new float[] {-5.0f, 5.0f};
+	private float[] forceLimit = new float[] {-2.0f, 2.0f};
 
 
 	void Start ()
 	{
 		Timer.success = true;
-
-		sideForce = forceLimit [Random.Range (0, 2)];
 	}
 
 
@@ -25,6 +21,25 @@ public class PogoController : MonoBehaviour {
 			sideForce -= 1.5f;
 
 		transform.Rotate (0, 0, (transform.rotation.z + sideForce/50) * Game.time);
+
+
+		if (Input.acceleration.x == 0)
+		{
+			//e der um toque e MOVER o dedo
+#if !UNITY_EDITOR
+			if (Input.GetTouch(0).phase == TouchPhase.Began)
+			{
+				if (Input.GetTouch (0).position.x > Screen.width/2)
+				{
+					sideForce += 1.5f;
+				}
+				else
+				{
+					sideForce -= 1.5f;
+				}
+			}
+#endif
+		}
 	}
 
 }

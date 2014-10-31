@@ -29,7 +29,7 @@ public class BlowController : MonoBehaviour {
 
 		if (state == 0) //OBJETIVO INCOMPLETO
 		{
-			if (micControl.loudness > 30) //SE O BARULHO DO MICROFONE FOR MAIOR QUE 30
+			if (micControl.loudness > 5) //SE O BARULHO DO MICROFONE FOR MAIOR QUE 30
 			{
 				windRenderer.enabled = true; //MOSTRA O VENTO
 				progress += 1; //ADICIONA 1 AO MEDIDOR DE PROGRESSO
@@ -64,6 +64,7 @@ public class BlowController : MonoBehaviour {
 			state = 2; //ESTADO 2, FIM
 		}
 	}
+
 
 	public void EndAnimation ()
 	{
