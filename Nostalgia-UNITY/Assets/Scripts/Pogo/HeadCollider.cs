@@ -5,13 +5,6 @@ public class HeadCollider : MonoBehaviour {
 
 
 	bool isPlaying = false;
-	private Rigidbody2D body;
-
-
-	void Start ()
-	{
-		body = transform.parent.rigidbody2D;
-	}
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
