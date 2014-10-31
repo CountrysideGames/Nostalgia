@@ -55,20 +55,20 @@ TextureImporter:
     - name: Race-frame
       rect:
         serializedVersion: 2
-        x: 455
-        y: 168
-        width: 569
-        height: 856
+        x: 454
+        y: 0
+        width: 570
+        height: 1024
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Race-screen
       rect:
         serializedVersion: 2
-        x: 128
-        y: 572
-        width: 313
-        height: 452
+        x: 0
+        y: 558
+        width: 325
+        height: 466
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -77,38 +77,38 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 99
-        height: 132
+        width: 102
+        height: 133
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Race-buttonUp
       rect:
         serializedVersion: 2
-        x: 498
-        y: 14
-        width: 150
-        height: 150
-      alignment: 3
-      pivot: {x: 1, y: 1}
+        x: 296
+        y: 2
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Race-wall
       rect:
         serializedVersion: 2
         x: 33
         y: 0
-        width: 33
-        height: 66
+        width: 32
+        height: 65
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Atlas-screenCrash
       rect:
         serializedVersion: 2
-        x: 131
-        y: 113
-        width: 304
-        height: 447
+        x: 150
+        y: 131
+        width: 290
+        height: 424
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,28 +117,18 @@ TextureImporter:
         serializedVersion: 2
         x: 66
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 35
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Race-buttonDown
       rect:
         serializedVersion: 2
-        x: 821
-        y: 14
-        width: 150
-        height: 150
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Brick-marks
-      rect:
-        serializedVersion: 2
-        x: 458
-        y: 353
-        width: 73
-        height: 594
+        x: 167
+        y: 2
+        width: 125
+        height: 125
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
