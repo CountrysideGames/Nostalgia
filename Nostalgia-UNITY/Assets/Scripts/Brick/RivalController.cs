@@ -4,7 +4,7 @@ using System.Collections;
 public class RivalController : MonoBehaviour {
 
 
-	private float[] positionX = new float[] {0.347f, -0.314f}; //posições X em que o jogador pode nascer
+	private float[] positionX = new float[] {0.368f, -0.295f}; //posições X em que o jogador pode nascer
 
 
 	void Start ()
@@ -25,3 +25,11 @@ public class RivalController : MonoBehaviour {
 	}
 
 }
+
+
+//4.732
+//4.796
+
+
+//0.347
+//0.368
